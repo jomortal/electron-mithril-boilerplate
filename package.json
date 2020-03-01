@@ -1,0 +1,48 @@
+{
+  "name": "sample-mithril-app",
+  "version": "0.1.0",
+  "main": "public/electron.js",
+  "build": {
+    "appId": "app",
+    "extends": null,
+    "files": [
+      "./build/**/*",
+      "./public/electron.js"
+    ]},
+  "scripts": {
+    "mithril-build": "fsbin emptyDir build && fsbin copy public build && webpack --config webpack.build.js",
+    "clean": "fsbin emptyDir build && fsbin emptyDir dist",
+    "mithril-dev": "webpack-dev-server --config webpack.dev.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "concurrently \"yarn mithril-dev\" \"wait-on http://localhost:8020/ && cross-env NODE_ENV=development yarn electron-start\"",
+    "electron-start": "electron .",
+    "electron-build": "electron-builder ./build",
+    "build": "yarn clean && yarn mithril-build && yarn electron-build"
+   
+  },
+  "dependencies": {
+    "copyfiles": "^2.2.0",
+    "cross-env": "^7.0.0",
+    "electron-is-dev": "^1.1.0",
+    "mithril": "^2.0.3"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.5.5",
+    "@babel/plugin-proposal-object-rest-spread": "^7.5.5",
+    "@babel/plugin-transform-react-jsx": "^7.3.0",
+    "@babel/polyfill": "^7.4.4",
+    "@babel/preset-env": "^7.5.5",
+    "babel-loader": "^8.0.6",
+    "concurrently": "^5.1.0",
+    "dotenv": "^7.0.0",
+    "electron": "^8.0.2",
+    "electron-builder": "^22.3.2",
+    "electron-packager": "^14.2.1",
+    "fsbin": "^1.0.8",
+    "wait-on": "^4.0.1",
+    "webpack": "^4.39.0",
+    "webpack-cli": "^3.3.6",
+    "webpack-dev-server": "^3.7.2"
+  }
+}
