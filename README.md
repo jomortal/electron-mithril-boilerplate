@@ -1,5 +1,5 @@
 # ELECTRON-MITHRIL-BOILERPLATE
-This is an attempt at an electron-mithril-boilerplate. It is based off of [create-mithril-app](https://www.npmjs.com/package/create-mithril-app) with electron added with the abilitiy to hotload your app and package into setup files.
+This is an attempt at an boilerplate to create an app using [mithril](https://mithril.js.org/) and [electron](https://www.electronjs.org/). It is based off of [create-mithril-app](https://www.npmjs.com/package/create-mithril-app).
 
 ## Setup:
 1. Clone or download this repository.
