@@ -8,7 +8,7 @@ Clone or download this repository.
 cd electron-mithril-boilerplate
 ```
 
-Install node modules using [yarn](https://www.npmjs.com/package/yarn) (follow the link to download and install yarn if you do not already have it installed).
+Install node modules using [yarn](https://classic.yarnpkg.com/en/docs/install#windows-stable) (follow the link to download and install yarn if you do not already have it installed).
 
 ```bash
 yarn
