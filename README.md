@@ -1,7 +1,7 @@
 # ELECTRON-MITHRIL-BOILERPLATE
 This is an attempt at an boilerplate to create an app using [mithril](https://mithril.js.org/) and [electron](https://www.electronjs.org/). It is based off of [create-mithril-app](https://www.npmjs.com/package/create-mithril-app).
 
-## Setup:
+## Setup
 1. Clone or download this repository.
 
 2. Install node modules using [yarn](https://www.npmjs.com/package/yarn)
