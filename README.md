@@ -4,9 +4,8 @@ This is an attempt at a boilerplate to create an app using [mithril](https://mit
 ## Setup
 Clone or download this repository.
 
-```bash
-cd electron-mithril-boilerplate
-```
+`cd electron-mithril-boilerplate`
+
 Install node modules using [yarn](https://www.npmjs.com/package/yarn) (follow the link to download and install yarn if you do not already have it installed).
 
 ```bash
