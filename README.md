@@ -18,6 +18,9 @@ yarn
 ```bash
 yarn dev
 ```
+
+## Edit
+Edit the files in the folder, 'client.' Begin with 'MainView.js.'
 ## Build Distributable Files
 ```bash
 yarn build
