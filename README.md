@@ -4,7 +4,7 @@ This is an attempt at an electron-mithril-boilerplate. It is based off of [creat
 ## Setup:
 1. Clone or download this repository.
 
-2. Install node modules
+2. Install node modules using [yarn](https://www.npmjs.com/package/yarn)
 
 ```bash
 cd electron-mithril-boilerplate
