@@ -20,8 +20,9 @@ yarn dev
 ```
 
 ## Edit
-Edit the files in the folder, 'client.' Begin with 'MainView.js.'
-## Build Distributable Files
+Begin by editing the files in the folder, 'client;' starting with 'MainView.js.' You should be able to see changes automatically in your app.
+
+## Build Distributable Setup Files
 ```bash
 yarn build
 ```
