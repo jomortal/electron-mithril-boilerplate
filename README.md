@@ -22,7 +22,7 @@ yarn dev
 ## Edit
 Begin by editing MainView.js in the client folder. You should be able to see changes automatically in your app.
 
-Learn more on using Mithril [HERE](https://scrimba.com/playlist/playlist-34)
+Learn more on using Mithril [HERE](https://scrimba.com/playlist/playlist-34).
 
 ## Build Distributable Setup Files
 ```bash
